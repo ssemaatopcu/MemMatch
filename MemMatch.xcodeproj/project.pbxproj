@@ -12,6 +12,7 @@
 		48EE91E32D05EC7B0063F0BB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 48EE91E22D05EC7B0063F0BB /* Assets.xcassets */; };
 		48EE91E62D05EC7B0063F0BB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 48EE91E52D05EC7B0063F0BB /* Preview Assets.xcassets */; };
 		48EE91ED2D0F7AD90063F0BB /* MemMatchGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48EE91EC2D0F7AD80063F0BB /* MemMatchGame.swift */; };
+		48EE91EF2D0F7C7C0063F0BB /* EmojiMemMatchGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48EE91EE2D0F7C7C0063F0BB /* EmojiMemMatchGame.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		48EE91E22D05EC7B0063F0BB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		48EE91E52D05EC7B0063F0BB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		48EE91EC2D0F7AD80063F0BB /* MemMatchGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemMatchGame.swift; sourceTree = "<group>"; };
+		48EE91EE2D0F7C7C0063F0BB /* EmojiMemMatchGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiMemMatchGame.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 				48EE91DE2D05EC780063F0BB /* MemMatchApp.swift */,
 				48EE91E02D05EC780063F0BB /* ContentView.swift */,
 				48EE91EC2D0F7AD80063F0BB /* MemMatchGame.swift */,
+				48EE91EE2D0F7C7C0063F0BB /* EmojiMemMatchGame.swift */,
 				48EE91E22D05EC7B0063F0BB /* Assets.xcassets */,
 				48EE91E42D05EC7B0063F0BB /* Preview Content */,
 			);
@@ -140,6 +143,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				48EE91EF2D0F7C7C0063F0BB /* EmojiMemMatchGame.swift in Sources */,
 				48EE91E12D05EC780063F0BB /* ContentView.swift in Sources */,
 				48EE91DF2D05EC780063F0BB /* MemMatchApp.swift in Sources */,
 				48EE91ED2D0F7AD90063F0BB /* MemMatchGame.swift in Sources */,
