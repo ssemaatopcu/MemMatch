@@ -7,13 +7,16 @@
 
 import SwiftUI
 
-
-func makeCardContent(Index: Int) -> String {
-    return "🤠"
-}
-
 class EmojiMemMatchGame {
-    private var model: MemMatchGame<String> = MemMatchGame<String>(numberOfPairsOfCards: 4, createCardContent: makeCardContent)
+    static let emojis = ["🚀", "⛵️", "✈️", "🚗", "🚲", "🚠", "🚛", "🛴", "🚆", "🛳️", "🚁", "🛵", "🚕"]
+    
+    static func createMemMatchGame() -> MemMatchGame<String> {
+        MemMatchGame<String>(numberOfPairsOfCards: 4) { pairIndex in
+            EmojiMemMatchGame.emojis[pairIndex]
+        }
+    }
+    
+    private var model: MemMatchGame<String> = createMemMatchGame()
     
     var cards: Array<MemMatchGame<String>.Card> {
         return model.cards
