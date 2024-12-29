@@ -16,9 +16,17 @@ class EmojiMemMatchGame {
         }
     }
     
-    private(set) var model: MemMatchGame<String> = createMemMatchGame()
+    private var model: MemMatchGame<String> = createMemMatchGame()
     
-//    var cards: Array<MemMatchGame<String>.Card> {
-//        model.cards
-//    }
+    var cards: Array<MemMatchGame<String>.Card> {
+        model.cards
+    }
+    
+    
+    // MARK: - Intent(s)
+    
+    
+    func choose(_ card: MemMatchGame<String>.Card) {
+        model.choose(card)
+    }
 }
