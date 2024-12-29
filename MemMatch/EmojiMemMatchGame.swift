@@ -12,13 +12,13 @@ class EmojiMemMatchGame {
     
     static func createMemMatchGame() -> MemMatchGame<String> {
         MemMatchGame<String>(numberOfPairsOfCards: 4) { pairIndex in
-            EmojiMemMatchGame.emojis[pairIndex]
+            emojis[pairIndex]
         }
     }
     
-    private var model: MemMatchGame<String> = createMemMatchGame()
+    private(set) var model: MemMatchGame<String> = createMemMatchGame()
     
-    var cards: Array<MemMatchGame<String>.Card> {
-        return model.cards
-    }
+//    var cards: Array<MemMatchGame<String>.Card> {
+//        model.cards
+//    }
 }
